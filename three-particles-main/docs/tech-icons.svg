@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="210" viewBox="0 0 1200 210" fill="none" role="img" aria-labelledby="title description">
+  <title id="title">Three Particles technology highlights</title>
+  <desc id="description">Three glossy 3D illustrations represent GPU simulation, custom shaders, and generative tracery.</desc>
+  <defs>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#101F24"/>
+      <stop offset="1" stop-color="#0A1418"/>
+    </linearGradient>
+    <linearGradient id="mint" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#92FFE2"/>
+      <stop offset="1" stop-color="#26AFAF"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#A2D8FF"/>
+      <stop offset="1" stop-color="#5375F4"/>
+    </linearGradient>
+    <linearGradient id="pink" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#FFC2E8"/>
+      <stop offset="1" stop-color="#C34AC2"/>
+    </linearGradient>
+    <filter id="shadow" x="0" y="0" width="1" height="1" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="7"/>
+    </filter>
+  </defs>
+  <rect x="1" y="1" width="1198" height="208" rx="22" fill="url(#panel)" stroke="#D2FFFF" stroke-opacity=".1"/>
+  <path d="M400 28v154M800 28v154" stroke="#D2FFFF" stroke-opacity=".08"/>
+
+  <g transform="translate(74 42)">
+    <ellipse cx="43" cy="100" rx="44" ry="10" fill="#000" fill-opacity=".5" filter="url(#shadow)"/>
+    <path d="m43 16 35 20v40L43 96 8 76V36l35-20Z" fill="url(#mint)"/>
+    <path d="m43 16 35 20-35 20L8 36l35-20Z" fill="#D5FFF4"/>
+    <path d="M43 56v40L8 76V36l35 20Z" fill="#32B8A7"/>
+    <path d="m43 56 35-20v40L43 96V56Z" fill="#14877F"/>
+    <path d="m43 27 15 9-15 9-15-9 15-9Z" fill="#fff" fill-opacity=".7"/>
+    <text x="105" y="44" fill="#E7F4F2" font-family="Arial,sans-serif" font-size="16" font-weight="700">GPU SIMULATION</text>
+    <text x="105" y="69" fill="#84999B" font-family="Arial,sans-serif" font-size="13">Positions evolve in parallel.</text>
+  </g>
+
+  <g transform="translate(474 42)">
+    <ellipse cx="43" cy="100" rx="44" ry="10" fill="#000" fill-opacity=".5" filter="url(#shadow)"/>
+    <path d="m43 16 35 20v40L43 96 8 76V36l35-20Z" fill="url(#blue)"/>
+    <path d="m43 16 35 20-35 20L8 36l35-20Z" fill="#D5ECFF"/>
+    <path d="M43 56v40L8 76V36l35 20Z" fill="#6589EF"/>
+    <path d="m43 56 35-20v40L43 96V56Z" fill="#405BC3"/>
+    <path d="m43 29 15 8v17l-15 8-15-8V37l15-8Z" stroke="#FFF" stroke-opacity=".85" stroke-width="3"/>
+    <path d="M43 62v9m-8-27 8 5 8-5" stroke="#FFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="105" y="44" fill="#E7F4F2" font-family="Arial,sans-serif" font-size="16" font-weight="700">CUSTOM SHADERS</text>
+    <text x="105" y="69" fill="#84999B" font-family="Arial,sans-serif" font-size="13">Color, light, and motion in GLSL.</text>
+  </g>
+
+  <g transform="translate(874 42)">
+    <ellipse cx="43" cy="100" rx="44" ry="10" fill="#000" fill-opacity=".5" filter="url(#shadow)"/>
+    <path d="m43 16 35 20v40L43 96 8 76V36l35-20Z" fill="url(#pink)"/>
+    <path d="m43 16 35 20-35 20L8 36l35-20Z" fill="#FFE0F3"/>
+    <path d="M43 56v40L8 76V36l35 20Z" fill="#CE65C7"/>
+    <path d="m43 56 35-20v40L43 96V56Z" fill="#9E3F9C"/>
+    <path d="M27 72c8-20 23-25 34-32M28 52c11 5 20 12 30 25M42 35c1 14 0 27 2 43" stroke="#FFF" stroke-width="2" stroke-linecap="round" stroke-opacity=".9"/>
+    <circle cx="27" cy="72" r="3" fill="#FFF"/>
+    <circle cx="61" cy="40" r="3" fill="#FFF"/>
+    <circle cx="58" cy="77" r="3" fill="#FFF"/>
+    <text x="105" y="44" fill="#E7F4F2" font-family="Arial,sans-serif" font-size="16" font-weight="700">GENERATIVE TRACERY</text>
+    <text x="105" y="69" fill="#84999B" font-family="Arial,sans-serif" font-size="13">A living layer of lines and labels.</text>
+  </g>
+</svg>
